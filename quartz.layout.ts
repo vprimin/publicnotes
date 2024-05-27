@@ -9,8 +9,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       LinkedIn: "https://www.linkedin.com/in/vprimin/",
       "Instagram": "https://www.instagram.com/vprimin/",
-      "Youtube": "https://www.youtube.com/@skp-radio",.
-      const year = new Date().getFullYear()      
+      "Youtube": "https://www.youtube.com/@skp-radio",.      
     },
   }),
 }
