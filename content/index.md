@@ -1,5 +1,6 @@
 ---
-title: Welcome to my puplic notes
+title: База знаний skp.kz
 ---
+![[small.png|200]]
+Всем привет, меня зовут Слава и я создал этот проект для ведения базы знаний.
 
-My name is Slava amd I'm happy to share with you мои мысли мои скакуны! 
