@@ -9,14 +9,11 @@ interface Options {
 
 export default ((opts?: Options) => {
   const Footer: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
-  const links = opts?.links ?? []   
+  const links = opts?.links ?? []
+   const year = new Date().getFullYear()
     return (
       <footer class={`${displayClass ?? ""}`}>
         <hr />
-        <p>
-         
-           © {year}
-        </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (
             <li>
