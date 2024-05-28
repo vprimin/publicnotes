@@ -5,5 +5,5 @@ title: Личные заметки
 Всем привет, меня зовут Слава и я создал этот проект для ведения базы знаний.
 Как принято говорить блог еще находится на стадии наполнения, но скоро все будет...
 
-![[avatar.png]]
-<img src="./static/icon.png" align="right" height="220" width="210" />
+![[../public/static/avatar.png]]
+<img src="./static/avatar.png" align="right" height="150" width="150" />
