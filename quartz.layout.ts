@@ -9,7 +9,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       LinkedIn: "https://www.linkedin.com/in/vprimin/",
       "Instagram": "https://www.instagram.com/vprimin/",
-      "Youtube": "https://www.youtube.com/@skp-radio",    
+      "Youtube": "https://www.youtube.com/@skp-radio",      
     },
   }),
 }
@@ -30,9 +30,9 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
+    Component.Backlinks(),
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
   ],
 }
 
