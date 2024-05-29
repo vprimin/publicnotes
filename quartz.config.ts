@@ -7,7 +7,9 @@ const config: QuartzConfig = {
     enableSPA: false,
     enablePopovers: false,
     analytics: null,
-    baseUrl: "pmcf.xyz/topo-da-mente",
+    locale: "ru-RU",
+    baseUrl: "slava.skp.kz",
+
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
