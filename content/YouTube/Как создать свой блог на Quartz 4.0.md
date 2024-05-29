@@ -4,7 +4,9 @@
 > В общем вдохновением для этой статьи стало видео одной замечательной девушки Nicole, которая довольно известна в Obsidian сообществе.
 > Также у нее в блоге написана [статья](https://notes.nicolevanderhoeven.com/How+to+publish+Obsidian+notes+with+Quartz+on+GitHub+Pages) с которой по сути переведен весь текст.
 
-![](https://www.youtube.com/watch?v=6s6DT1yN4dw&t=1s)
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=6s6DT1yN4dw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+![](https://www.youtube.com/watch?v=6s6DT1yN4dw&t)
 
 В данной статье я постараюсь своими словами, на русском языке объяснить как создать свой блог в интернете бесплатно на основе движка Quartz 4.0 и редактора Obsidan и бесплатного хостинга от GitHub.
 
