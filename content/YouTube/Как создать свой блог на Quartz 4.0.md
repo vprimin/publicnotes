@@ -102,6 +102,16 @@ npx quartz create
 > Running `npx quartz build --serve` to preview your Quartz locally
 > Hosting your Quartz online (see: https://quartz.jzhao.xyz/hosting)
 
+
+%%тут кстати можно проверить коммандой %%
+```
+npx quartz build --serve
+```
+
+Должно быть сообщение вроде 
+
+`Started a Quartz server listening at http://localhost:8080`
+
 # 2. Закачиваем проект на гитхаб
 
 Прежде чем начать нам нужно будет создать пару ключей шифрования и добавить их на гитхаб чтобы наш компьютер имел права доступа к гиту.
@@ -112,10 +122,13 @@ npx quartz create
 ssh-keygen -t rsa
 ```
 
-Далее три раза нажимаем enter и вводим следующую команду
+Далее три раза нажимаем enter и вводим следующую команду, замените username на вашего пользователя в системе посмотреть имя пользователя можно командой whoami
 ```
 sudo cp ~/.ssh/id_rsa.pub /Users/username/Desktop/key.pub
 ```
+Данная команда скопирует публичный ключ на рабочий стол. Открываем его с помощью блокнота и добавляем на гитхаб в разделе settings>SSH and GPG keys>New SSH key
+вводим любой title и в содержимое поля "key" вставляем содержимое из текстового файла, жмем "Add SSH key"
+
 
 ***
 Заходим на гитхаб и создаем репозиторий, даем ему имя. В моем случае это "blog",
