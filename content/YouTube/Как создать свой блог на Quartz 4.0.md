@@ -233,3 +233,9 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
 ```
+
+выполним команду синхронизации с облаком снова
+
+```
+npx quartz sync
+```
