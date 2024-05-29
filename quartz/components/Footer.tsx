@@ -14,7 +14,7 @@ export default ((opts?: Options) => {
       <footer class={`${displayClass ?? ""}`}>
         <p>
           <small>
-            By <a href="https://www.pmcf.xyz">Pedro MC Fernandes</a>, unless otherwise stated or link-referenced.
+            We can not change the past but we are can start today to make a better tomorrow..
           </small>
         </p>
         <ul>

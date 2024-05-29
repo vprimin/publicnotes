@@ -8,9 +8,9 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer(
     {
     links: {
-      "About": "https://www.pmcf.xyz/topo-da-mente",
-      "Are.na": "https://www.are.na/p-m-c-f",
-      "Mastodon": "https://mastodon.social/@freenandes",
+      "LinkedIn": "https://www.linkedin.com/in/vprimin/",
+      "Instagram": "https://www.instagram.com/vprimin/",
+      "CV": "https://slava.skp.kz",
     },
   }
   ),
