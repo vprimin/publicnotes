@@ -7,6 +7,6 @@ modified:
 Как принято говорить блог еще находится на стадии наполнения, но скоро все будет...
 ![](https://youtu.be/VH78V7dXwsE)
 
-![[attachment/image/avatar.png]]
+
 <img src="./avatar.png" align="right" height="150" width="150" />
 
