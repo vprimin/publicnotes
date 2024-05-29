@@ -103,7 +103,7 @@ npx quartz create
 > Hosting your Quartz online (see: https://quartz.jzhao.xyz/hosting)
 
 
-%%тут кстати можно проверить коммандой %%
+ут кстати можно проверить коммандой
 ```
 npx quartz build --serve
 ```
@@ -112,6 +112,9 @@ npx quartz build --serve
 
 `Started a Quartz server listening at http://localhost:8080`
 
+Если все ок то мы увидим сайт развернутый на веб сервере Quartz на нашем компе.
+Переходим к тому, чтобы выложить все это в интернет.
+![[Pasted image 20240529155653.png]]
 # 2. Закачиваем проект на гитхаб
 
 Прежде чем начать нам нужно будет создать пару ключей шифрования и добавить их на гитхаб чтобы наш компьютер имел права доступа к гиту.
@@ -164,9 +167,69 @@ git remote -v
 ![[Pasted image 20240529151452.png]]
 Должно быть вот так примерно.Добавилось ваше origin соединение.
 
-Следующая команда загрузит все наши файлы с компа в репозиторий.
+Следующая команда загрузит все наши файлы с компа в репозиторий на гитхабе.
 
 ```
 npx quartz sync --no-pull
 ```
 На сообщение про fingerprint отвечаем: Yes
+
+Далее можем зайти на гитхаб и убедиться что наши файлы находятся в облачном репозитории.
+
+На следующем шаге мы создадим текстовый файл с конфигрурацией развертывания (deploy) так чтобы при каждом изменении репозитория github давал команду веб-серверу quartz на регенирацию сайта.
+
+создадим файл и откроем его текстовым редактором nano
+
+```
+nano .github/workflows/deploy.yml
+```
+
+Поместим в него следующий текст
+
+```
+name: Deploy Quartz site to GitHub Pages
+ 
+on:
+  push:
+    branches:
+      - v4
+ 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+ 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+ 
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Fetch all history for git info
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18.14
+      - name: Install Dependencies
+        run: npm ci
+      - name: Build Quartz
+        run: npx quartz build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: public
+ 
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
+```
