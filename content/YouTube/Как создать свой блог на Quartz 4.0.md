@@ -1,3 +1,8 @@
+---
+tags:
+  - "#obsidian"
+  - "#github"
+---
 # Disclaimer
 
 > [!info] Предисловие
