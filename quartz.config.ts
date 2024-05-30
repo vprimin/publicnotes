@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     defaultDateType: "created",
     theme: {
       typography: {
-        header: "Caveat",
+        header: "Bad Script",
         body: "Didact Gothic",
         code: "Source Code Pro",
       },
