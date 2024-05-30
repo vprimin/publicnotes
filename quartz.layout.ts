@@ -30,11 +30,11 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Darkmode(),
     Component.Divider(),
     Component.DesktopOnly(Component.RecentNotes({
-      title: "Most recent",
+      title: "Недавние публикации",
       limit: 5
     })),
     Component.DesktopOnly(Component.Explorer({
-      title: "Explore",
+      title: "Разделы",
       useSavedState: true,
       sortFn: (a, b) => {
         if ((!a.file && !b.file) || (a.file && b.file)) {
@@ -66,11 +66,11 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
     Component.MobileOnly(Component.RecentNotes({
-      title: "Most recent",
+      title: "Недавние публикации",
       limit: 5
     })),
     Component.MobileOnly(Component.Explorer({
-      title: "Explore",
+      title: "Разделы",
       useSavedState: true,
       sortFn: (a, b) => {
         if ((!a.file && !b.file) || (a.file && b.file)) {
@@ -100,11 +100,11 @@ export const defaultListPageLayout: PageLayout = {
     Component.Darkmode(),
     Component.Divider(),
     Component.DesktopOnly(Component.RecentNotes({
-      title: "Most recent",
+      title: "Недавние публикации",
       limit: 5
     })),
     Component.DesktopOnly(Component.Explorer({
-      title: "Explore",
+      title: "Разделы",
       useSavedState: true,
       sortFn: (a, b) => {
         if ((!a.file && !b.file) || (a.file && b.file)) {
