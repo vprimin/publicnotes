@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Slava Primin",
+    pageTitle: "Public Notes",
     enableSPA: false,
     enablePopovers: false,
     analytics: null,
