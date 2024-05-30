@@ -5,7 +5,7 @@ const config: QuartzConfig = {
   configuration: {
     pageTitle: "Public Notes",
     enableSPA: false,
-    enablePopovers: false,
+    enablePopovers: true,
     analytics: null,
     locale: "ru-RU",
     baseUrl: "slava.skp.kz",
