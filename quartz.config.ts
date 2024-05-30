@@ -14,9 +14,9 @@ const config: QuartzConfig = {
     defaultDateType: "created",
     theme: {
       typography: {
-        header: "Lexend Zetta",
-        body: "Lexend",
-        code: "Monaspace Neon",
+        header: "Montserrat Alternates",
+        body: "Didact Gothic",
+        code: "Source Code Pro",
       },
       colors: {
         lightMode: {
