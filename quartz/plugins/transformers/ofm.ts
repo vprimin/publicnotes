@@ -35,7 +35,7 @@ const defaultOptions: Options = {
   mermaid: true,
   parseTags: true,
   parseBlockReferences: true,
-  enableInHtmlEmbed: false,
+  enableInHtmlEmbed: true,
 }
 
 const icons = {
