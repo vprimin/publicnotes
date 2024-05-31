@@ -14,6 +14,10 @@ tags:
 Я пока только познаю азы этого движка и постепенно планирую делиться полученными знаниями  [[content/Блог/index|по ходу]]
 
 
+<iframe width="100%" src="https://www.youtube-nocookie.com/embed/3zsJFTF9ZHc?si=dwsg1DV_aJIshjzF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
 ![](https://youtu.be/VH78V7dXwsE)
 
 
