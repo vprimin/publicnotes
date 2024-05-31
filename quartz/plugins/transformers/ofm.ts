@@ -36,6 +36,9 @@ const defaultOptions: Options = {
   parseTags: true,
   parseBlockReferences: true,
   enableInHtmlEmbed: true,
+  enableYouTubeEmbed: true,
+  enableVideoEmbed: true,
+  enableCheckbox: true,
 }
 
 const icons = {
