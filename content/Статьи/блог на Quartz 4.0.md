@@ -8,7 +8,7 @@ date: 2024-05-30
 
 > [!info] Предисловие
 > В общем вдохновением для этой статьи стало видео одной замечательной девушки Nicole, которая довольно известна в Obsidian сообществе.
-> Также у нее в блоге написана [статья](https://notes.nicolevanderhoeven.com/How+to+publish+Obsidian+notes+with+Quartz+on+GitHub+Pages) с которой по сути переведен весь текст.
+> Также у нее в блоге написана [статья](https://notes.nicolevanderhoeven.com/How+to+publish+Obsidian+notes+with+Quartz+on+GitHub+Pages) с которой по сути переведен весь текст c небольшими правками.
 
 
 ![](https://www.youtube.com/watch?v=6s6DT1yN4dw&t)
