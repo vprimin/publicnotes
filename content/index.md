@@ -21,7 +21,7 @@ tags:
 - [x] RSS
 - [x] Embed youtube
 - [x] CV
-- [ ] Fonts
+- [x] Fonts
 - [ ] Table of contents
 - [ ] Localization
 
