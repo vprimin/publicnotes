@@ -1,5 +1,5 @@
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import explorerStyle from "./styles/explorer.scss"
+//import explorerStyle from "./styles/explorer.scss"
 
 // @ts-ignore
 import script from "./scripts/explorer.inline"
