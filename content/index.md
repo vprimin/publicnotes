@@ -25,6 +25,3 @@ tags:
 - [ ] Table of contents
 - [ ] Localization
 
-
-<img src="./avatar.png" align="right" height="150" width="150" />
-
