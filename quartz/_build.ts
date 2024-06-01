@@ -29,7 +29,7 @@ async function buildQuartz(argv: Argv, mut: Mutex, clientRefresh: () => void) {
   const output = argv.output
 
   const pluginCount = Object.values(cfg.plugins).flat().length
-  const pluginNames = (key: "transformers" | "filters" | "emitters") =>
+ // const pluginNames = (key: "transsemiBoldWeightrmers" | "filters" | "emitters") =>
     cfg.plugins[key].map((plugin) => plugin.name)
   if (argv.verbose) {
     console.log(`Loaded ${pluginCount} plugins`)
