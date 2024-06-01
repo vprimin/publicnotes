@@ -15,22 +15,4 @@ tags:
 Сайт работает в режиме цифрового сада.!
 
 Я пока только познаю азы этого движка и постепенно планирую делиться полученными знаниями  в [[Блог/index|блоге]] и [[Статьи/index|статьях]]
-
 ***
-- [x] RSS
-- [x] Embed youtube
-- [x] CV
-- [x] Fonts
-- [x] Radio SKP
-- [ ] Table of contents
-- [ ] Localization
-
-Posts
-
-- [ ] Bear
-- [ ] Markdown template
-- [ ] Effector saver
-- [ ] BGinfo
-- [ ] Путешествия
-
-
