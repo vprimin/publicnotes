@@ -10,7 +10,8 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       "LinkedIn": "https://www.linkedin.com/in/vprimin/",
       "Instagram": "https://www.instagram.com/vprimin/",
-      "CV": "https://slava.skp.kz",
+      "CV": "https://read.cv/vprimin",
+      "RSS": "https://slava.skp.kz/index.xml",
     },
   }
   ),
