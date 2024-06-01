@@ -1,7 +1,7 @@
 ---
 date: 2024-05-29
 title: Public Notes
-modified: 
+modified: 2024-06-01
 tags:
   - "#obsidian"
   - "#mikrotik"
