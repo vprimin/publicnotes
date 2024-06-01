@@ -33,13 +33,14 @@ date: 2024-05-30
 > Будет показана установка с нуля - то есть с абсолютно чистой пустой системы
 
 Для установки нам понадобиться предустановить следующие компоненты:
-- [ ] Homebrew
+- [ ] [[Терминал на стеройдах/Homebew|Homebrew]]
 - [ ] NodeJS v 18.14 +
 - [ ] NPM v 9.3.1+
-- [ ] Git + GitHub Desktop
-- [ ] Obsidian
+- [ ] Git + [GitHub Desktop](https://desktop.github.com/)
+- [ ] [Obsidian](https://obsidian.md/)
+- [ ] [Sublime text](https://www.sublimetext.com/3) или любой IDE (кто знаком) для редактирования конфигурационных файлов
 
-Homebrew
+установим Homebrew, в терминал введем команду
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -74,7 +75,7 @@ v22.2.0
 brew install git
 ```
 
-
+Перейдем в домашний каталог  `cd ~`
 Далее выполним команду копирования репозитория на свой компьютер, переходим в домашнюю папку и вводим
 ```
 git clone https://github.com/jackyzha0/quartz.git
