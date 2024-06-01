@@ -8,7 +8,7 @@ date: 2024-05-30
 
 > [!info] Предисловие
 > В общем вдохновением для этой статьи стало видео одной замечательной девушки Nicole, которая довольно известна в Obsidian сообществе.
-> Также у нее в блоге написана [статья](https://notes.nicolevanderhoeven.com/How+to+publish+Obsidian+notes+with+Quartz+on+GitHub+Pages) с которой по сути переведен весь текст.
+> Также у нее в блоге написана [статья](https://notes.nicolevanderhoeven.com/How+to+publish+Obsidian+notes+with+Quartz+on+GitHub+Pages) с которой по сути переведен весь текст c небольшими правками.
 
 
 ![](https://www.youtube.com/watch?v=6s6DT1yN4dw&t)
@@ -20,7 +20,7 @@ date: 2024-05-30
 1. Разворачиваем локальный сервер на движке Quartz 4.0 у себя на компе
 2. Закачиваем весь проект в GitHub, включаем поддержку GitHub Pages.
 3. Редактируем с помощью Obsidian, апдейтим с помощью Git
-
+![[Pasted image 20240601195452.png]]
 В итоге получаем бесплатный хостинг. Красивый, минималистичный дизайн.
 
 >[!caution] Установка требует базовых знаний работы c git и навыков работы с терминалом.
@@ -33,13 +33,14 @@ date: 2024-05-30
 > Будет показана установка с нуля - то есть с абсолютно чистой пустой системы
 
 Для установки нам понадобиться предустановить следующие компоненты:
-- [ ] Homebrew
+- [ ] [[Терминал на стеройдах/Homebew|Homebrew]]
 - [ ] NodeJS v 18.14 +
 - [ ] NPM v 9.3.1+
-- [ ] Git + GitHub Desktop
-- [ ] Obsidian
+- [ ] Git + [GitHub Desktop](https://desktop.github.com/)
+- [ ] [Obsidian](https://obsidian.md/)
+- [ ] [Sublime text](https://www.sublimetext.com/3) или любой IDE (кто знаком) для редактирования конфигурационных файлов
 
-Homebrew
+установим Homebrew, в терминал введем команду
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -74,7 +75,7 @@ v22.2.0
 brew install git
 ```
 
-
+Перейдем в домашний каталог  `cd ~`
 Далее выполним команду копирования репозитория на свой компьютер, переходим в домашнюю папку и вводим
 ```
 git clone https://github.com/jackyzha0/quartz.git
