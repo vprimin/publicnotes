@@ -15,7 +15,13 @@ tags:
 
 Я пока только познаю азы этого движка и постепенно планирую делиться полученными знаниями  [[content/Блог/index|по ходу]]
 
+
 - [ ] RSS
+- [x] Embed youtube
 - [ ] CV
 - [ ] Fonts
 - [ ] Table of contents
+
+
+<img src="./avatar.png" align="right" height="150" width="150" />
+
