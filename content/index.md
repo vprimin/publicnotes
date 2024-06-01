@@ -16,9 +16,9 @@ tags:
 Я пока только познаю азы этого движка и постепенно планирую делиться полученными знаниями  [[content/Блог/index|по ходу]]
 
 
-- [ ] RSS
+- [x] RSS
 - [x] Embed youtube
-- [ ] CV
+- [x] CV
 - [ ] Fonts
 - [ ] Table of contents
 
