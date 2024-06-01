@@ -2,7 +2,7 @@
 
 
 ~/Library/Mobile\ Documents/com\~apple\~CloudDocs
-
+gdfgdfg
 
 Fortunately you can use a symbolic link or a symlink so that you could easily access your documents in iCloud Drive from Terminal with something like this:
 
