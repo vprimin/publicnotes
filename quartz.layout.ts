@@ -30,10 +30,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.Divider(),
-    Component.DesktopOnly(Component.RecentNotes({
-      title: "Недавние публикации",
-      limit: 5
-    })),
+    Component.TagList(),
     Component.DesktopOnly(Component.Explorer({
       title: "Разделы",
       useSavedState: false,
@@ -55,7 +52,6 @@ export const defaultContentPageLayout: PageLayout = {
     })),
   ],
   right: [
-    Component.TagList(),
     Component.Graph({
       localGraph: {
         linkDistance: 50,

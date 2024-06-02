@@ -1,11 +1,14 @@
-import { FullSlug, _stripSlashes, joinSegments, pathToRoot } from "../util/path"
+import { i18n } from "../i18n"
+import { FullSlug, joinSegments, pathToRoot } from "../util/path"
 import { JSResourceToScriptElement } from "../util/resources"
-import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { googleFontHref } from "../util/theme"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 export default (() => {
-  function Head({ cfg, fileData, externalResources }: QuartzComponentProps) {
-    const title = fileData.frontmatter?.title ?? "Untitled"
-    const description = fileData.description?.trim() ?? "No description provided"
+  const Head: QuartzComponent = ({ cfg, fileData, externalResources }: QuartzComponentProps) => {
+    const title = fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
+    const description =
+      fileData.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description
     const { css, js } = externalResources
 
     const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
@@ -14,12 +17,18 @@ export default (() => {
 
     const iconPath = joinSegments(baseDir, "static/icon.png")
     const ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`
-    const posthogPath = joinSegments(baseDir, "static/posthog.js")
 
     return (
       <head>
         <title>{title}</title>
         <meta charSet="utf-8" />
+        {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
+          <>
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" />
+            <link rel="stylesheet" href={googleFontHref(cfg.theme)} />
+          </>
+        )}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
@@ -35,7 +44,6 @@ export default (() => {
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")
           .map((res) => JSResourceToScriptElement(res, true))}
-        <script async src={posthogPath}></script>
       </head>
     )
   }
