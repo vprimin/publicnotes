@@ -11,7 +11,7 @@ export const sharedPageComponents: SharedLayout = {
       "LinkedIn": "https://www.linkedin.com/in/vprimin/",
       "Instagram": "https://www.instagram.com/vprimin/",
       "Радио СКП": "https://www.youtube.com@skp-radio/",
-      "CV": "https://slava.skp.kz",
+      "CV": "https://read.cv/vprimin",
       "RSS": "https://slava.skp.kz/index.xml",
     },
   }
