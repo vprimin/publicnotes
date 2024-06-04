@@ -51,10 +51,6 @@ export const defaultContentPageLayout: PageLayout = {
         }
       },
     })),
-    Component.DesktopOnly(Component.RecentNotes({
-      title: "Most recent",
-      limit: 5
-    })),    
   ],
   
   right: [
