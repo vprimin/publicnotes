@@ -51,11 +51,12 @@ export const defaultContentPageLayout: PageLayout = {
         }
       },
     })),
+    Component.DesktopOnly(Component.RecentNotes({
+      title: "Most recent",
+      limit: 5
+    })),    
   ],
-  Component.DesktopOnly(Component.RecentNotes({
-    title: "Most recent",
-    limit: 5
-  })),
+  
   right: [
     Component.Graph({
       localGraph: {
