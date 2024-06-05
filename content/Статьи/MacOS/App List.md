@@ -35,7 +35,7 @@ Sharing a personal note, maybe it can be helpful to others.
 29. [ ] RayCast----
 30. [ ]  Antivirus ----
 31. [ ]  Terminal things: 
-     [[MacOS/homebrew|homebrew]]
+     [[Статьи/MacOS/homebrew|homebrew]]
      [Term2+oh-my-zsh](https://ohmyz.sh/)
      [Amazon Q (fig)](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-getting-started-installing.html) 
      [Warp](https://www.warp.dev/)
