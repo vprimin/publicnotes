@@ -34,13 +34,17 @@ Sharing a personal note, maybe it can be helpful to others.
 28. [ ] Messengers (Teams, Telegram, WhatsApp) — [allinone.im](http://allinone.im) ----
 29. [ ] RayCast----
 30. [ ]  Antivirus ----
-31. [ ]  **iTerm+oh-my-zhs + Fig** + warp
-32. [ ]  UTM
-34. [ ] Obsidian + Шрифты 
-35. [ ] Battle.net, StarCraft2
-36. [ ] OBS Studio
-37. [ ] ChatGPT
-38. [ ] GitHub
+31. [ ]  Terminal things: 
+     [[Статьи/MacOS/homebrew|homebrew]]
+     [Term2+oh-my-zsh](https://ohmyz.sh/)
+     [Amazon Q (fig)](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-getting-started-installing.html) 
+     [Warp](https://www.warp.dev/)
+1. [ ]  UTM
+2. [ ] Obsidian + Шрифты 
+3. [ ] Battle.net, StarCraft2
+4. [ ] OBS Studio
+5. [ ] ChatGPT
+6. [ ] GitHub
 
 * * *
 ### Optional
