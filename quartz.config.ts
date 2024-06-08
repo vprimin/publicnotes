@@ -24,7 +24,7 @@ const config: QuartzConfig = {
       typography: {
         header: "Jura",
         body: "Didact Gothic",
-        code: "Source Code Pro",
+        code: "Fira Code",
       },
       colors: {
         lightMode: {
