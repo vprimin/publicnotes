@@ -11,9 +11,9 @@ Sharing a personal note, maybe it can be helpful to others.
 3. [ ] Delete numbers, pages, keynote, garageband from applications directory 
 5. [ ] setup dock from left, clean icons, tap to click trackpad --
 6. [ ] hot corner shortcut for left upper - Lauchpad -
-7. [ ]  Set hostname
+7. [ ] Set hostname
 8. [ ] Chrome, and set by default -
-9. [ ]  MS Office + Outlook (signature)
+9. [ ] MS Office + Outlook (signature)
 10. [ ] Teams - [[Classic version]] ([https://go.microsoft.com/fwlink/p/?linkid=869428](https://go.microsoft.com/fwlink/p/?linkid=869428 "go.microsoft.com")
 11. [ ] Chrome profiles -
 12. [ ] 1Password, BitWarden -
