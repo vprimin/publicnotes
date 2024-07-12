@@ -9,7 +9,12 @@ tags:
 
 ![[Pasted image 20240712150204.png|500]]
 
-Установка на базе Ubuntu 24.04 Server
+> [!NOTE] Вместо предисловия
+> Эта история началась с того, что завалялся на полке 8 Тб жесткий диск. Вообще я больше предпочитаю NAS в виде Synology либо QNAP. Но так как под рукой были только свободное время и желание решил развернуть на базе виртуальной машины. 
+> Кроме [Owncloud](https://owncloud.com/) есть еще [FileCloud](https://www.filecloud.com/) и [NextCloud](https://nextcloud.com/). Может быть они вам больше понравятся. Мне owncloud приглянулся за чистоту дизайна.
+
+
+# Установка на базе Ubuntu 24.04 Server
 Сначала начнем с классического обновления системы
 ```
 sudo su
@@ -28,7 +33,7 @@ owncloud также требует модуль php7.4 установим
 ```
 add-apt-repository ppa:ondrej/php
 apt update
-sudo apt install php7.4 php7.4-{opcache,gd,curl,mysqlnd,intl,json,ldap,mbstring,mysqlnd,xml,zip}
+sudo apt install php7.4 php7.4-{opcache,gd,curl,mysqlnd,intl,json,ldap,mbstring,mysqlnd,xml,zip} -y
 ```
 
 Выполним установку СУБД
@@ -95,6 +100,7 @@ sudo chown -R www-data: /var/www/html/owncloud
 
 Если все прошло хорошо, то система предложит создать учетную запись администратора. Для подключения к БД вводим значения которые использовали ранее.
 
+## Делаем короткий URL
 Даллее отредактируем файл настрое owncloud чтобы наш веб сервер отрабатывал http://ip/. вместо http://ip/owncloud
 `sudo nano /var/www/html/owncloud/config/config.php`
 заменим значение 
@@ -104,6 +110,7 @@ sudo chown -R www-data: /var/www/html/owncloud
 
 Для этого нам понадобиться DNS A-запись в виде site.com либо cloud.site.com а также пробросить порты на маршрутизаторе до вашего хоста. Как это делать в данной статье пропускается.
 
+## Подключаем SSL
 Установим службу sertbot
 `sudo apt install certbot python3-certbot-apache -y`
 
@@ -157,3 +164,5 @@ array (
   3 => 'drive.skp.kz'
 ),
 ```
+
+## Кастомизация
