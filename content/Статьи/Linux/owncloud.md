@@ -62,10 +62,12 @@ EXIT;
 
 Далее скачаем и распакуем owncloud
 ```
+apt install bzip2 -y
 wget https://download.owncloud.com/server/stable/owncloud-complete-latest.tar.bz2
 tar -xvf owncloud-complete-latest.tar.bz2
-sudo mv owncloud /var/www/html/
-sudo chown -R www-data: /var/www/html/owncloud
+mv owncloud /var/www/html/
+chown -R www-data: /var/www/html/owncloud
+rm owncloud-complete-latest.tar.bz2
 ```
 
 Далее создадим конфигурационный файл для веб сервера
@@ -101,16 +103,15 @@ sudo chown -R www-data: /var/www/html/owncloud
 Если все прошло хорошо, то система предложит создать учетную запись администратора. Для подключения к БД вводим значения которые использовали ранее.
 
 ## Делаем короткий URL
-Даллее отредактируем файл настрое owncloud чтобы наш веб сервер отрабатывал http://ip/. вместо http://ip/owncloud
+Даллее отредактируем файл настроек owncloud чтобы наш веб сервер отрабатывал http://ip/. вместо http://ip/owncloud
+Откроем файл 
 `sudo nano /var/www/html/owncloud/config/config.php`
 заменим значение 
 `'overwrite.cli.url' => 'http://localhost/'`
 
-Далле займемся ssl сертификатами чтобы наш сайт был доступен через 443 порт
-
-Для этого нам понадобиться DNS A-запись в виде site.com либо cloud.site.com а также пробросить порты на маршрутизаторе до вашего хоста. Как это делать в данной статье пропускается.
-
 ## Подключаем SSL
+Далле займемся ssl сертификатами чтобы наш сайт был доступен через 443 порт
+Для этого нам понадобиться DNS A-запись в виде site.com либо cloud.site.com а также пробросить порты на маршрутизаторе до вашего хоста. Как это делать в данной статье пропускается.
 Установим службу sertbot
 `sudo apt install certbot python3-certbot-apache -y`
 
@@ -166,3 +167,4 @@ array (
 ```
 
 ## Кастомизация
+Owncloud поддерживает кастомные темы оформления. На их сайте есть даже [подробная статья](https://doc.owncloud.com/server/next/developer_manual/core/theming.html) на эту тему. Меня в целом стандартая тема более чем устраивает, однако было бы не плохо заменить несколько элементов на свои.
