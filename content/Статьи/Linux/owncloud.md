@@ -1,6 +1,6 @@
 ---
 title: owncloud
-date: 07/12/2024
+date: 07/13/2024
 tags:
   - Linux
   - owncloud
