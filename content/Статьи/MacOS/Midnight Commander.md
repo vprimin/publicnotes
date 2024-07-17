@@ -9,7 +9,7 @@ date: 2024-07-08
 Все очень просто, сначала ставим [[Статьи/MacOS/homebrew|homebrew]]
 потом выполняем команду
 ```
-brew install midnight-commander\n
+brew install midnight-commander
 ```
 
 Далее вызвать можно командой 
