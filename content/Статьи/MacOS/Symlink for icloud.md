@@ -3,7 +3,7 @@ title: Ярлык for iCloud
 tags:
   - MacOS
 ---
-Я люблю упорядочивать файлы и папки в том числе в своем iCloud и использую для этого Midnight Commander
+Я люблю упорядочивать файлы и папки в том числе в своем iCloud и использую для этого [[Midnight Commander]]
 
 По умолчанию эта папка расположена в MacOS по адресу:
 `~/Library/Mobile\ Documents/com\~apple\~CloudDocs`

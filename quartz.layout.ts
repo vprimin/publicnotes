@@ -32,7 +32,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Darkmode(),
     Component.Divider(),
     Component.TagList(),
-    Component.RecentNotes(),
     Component.DesktopOnly(Component.Explorer({
       title: "Разделы",
       useSavedState: false,

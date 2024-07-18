@@ -6,12 +6,14 @@ tags:
   - owncloud
   - ubuntu
 ---
+![](https://youtu.be/wmpRra5hOa4)
 
-![[Pasted image 20240712150204.png|500]]
 
 > [!NOTE] Вместо предисловия
 > Эта история началась с того, что завалялся на полке 8 Тб жесткий диск. Вообще я больше предпочитаю NAS в виде Synology либо QNAP. Но так как под рукой были только свободное время и желание решил развернуть на базе виртуальной машины. 
 > Кроме [Owncloud](https://owncloud.com/) есть еще [FileCloud](https://www.filecloud.com/) и [NextCloud](https://nextcloud.com/). Может быть они вам больше понравятся. Мне owncloud приглянулся за чистоту дизайна.
+
+
 
 
 # Установка на базе Ubuntu 24.04 Server
