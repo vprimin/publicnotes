@@ -1,4 +1,6 @@
 @use "../../styles/variables.scss" as *;
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;500;600;700&display=swap');
+
 
 button#explorer {
   all: unset;
@@ -84,7 +86,7 @@ svg {
 
   & div > a {
     color: var(--secondary);
-    font-family: var(--headerFont);
+    font-family:  'Jura', sans-serif;
     font-size: 1.95rem;
     font-weight: $semiBoldWeight;
     line-height: 1.5rem;
@@ -108,7 +110,8 @@ svg {
     font-family: var(--headerFont);
 
     & span {
-      font-size: 2.95rem;
+      font-size: 0.95rem;
+      font-family:  'Jura', sans-serif;
       display: inline-block;
       color: var(--secondary);
       font-weight: $semiBoldWeight;
