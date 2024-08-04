@@ -29,3 +29,7 @@ sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
 ```
 
+## Проверяем
+```
+sudo systemctl status docker
+```
