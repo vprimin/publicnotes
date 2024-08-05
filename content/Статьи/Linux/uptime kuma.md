@@ -4,8 +4,9 @@ tags:
   - "#monitoring"
   - Linux
 ---
+![](https://youtu.be/Fv-srHz4GsU)
 
-> [!NOTE] В данной статье приводится пример установки на AWS
+> [!NOTE] В данной статье приводится пример установки на AWS EC2
 # Регистрируем тенант на aws
 
  1. Идем в Network & Security > Security Groups > Create security group 
