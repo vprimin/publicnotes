@@ -19,8 +19,7 @@ tags:
 # Установка на базе Ubuntu 24.04 Server
 Сначала начнем с классического обновления системы
 ```
-sudo su
-apt update
+sudo apt update 
 apt upgrade -y
 reboot
 ```
