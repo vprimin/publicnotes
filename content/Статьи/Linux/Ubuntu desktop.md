@@ -1,6 +1,8 @@
 ---
 date: 08/11/2024
 title: Ubuntu desktop
+tags:
+  - Linux
 ---
 ```
 sudo su
