@@ -12,9 +12,9 @@ tags:
 
 > [!INFO] Предистория
 > На tailscale я наткнулся случайно, когда изучал [Umbrel OS](https://umbrel.com/) там в магазине приложений можно было скачать и установить эту штуку.  Далее начал изучать конкурентов
->  [Zerotier](https://www.zerotier.com/pricing/)
+>[Zerotier](https://www.zerotier.com/pricing/)
 >[Netbird.io](https://netbird.io/pricing)
->[Headscale](https://headscale.net/) - бесплатный форк (self-hosted)
+>[Headscale](https://headscale.net/) (self-hosted)
 >
 >И когда увидел нативную поддержку Synology, понял что остановил свои поиски
 
