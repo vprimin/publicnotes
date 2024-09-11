@@ -1,6 +1,6 @@
 ---
 date: 08/11/2024
-title: Ubuntu desktop
+title: ubuntu desktop
 tags:
   - Linux
 ---
