@@ -110,6 +110,12 @@ server {
 sudo nginx -t
 ```
 
+Включим сайт
+
+```
+sudo ln -s /etc/nginx/sites-available/memos.skp.kz /etc/nginx/sites-enabled/
+```
+
 Перезагрузим сервис
 ```
 sudo systemctl reload nginx
@@ -118,4 +124,6 @@ sudo systemctl reload nginx
 Проверим доступность сайта, пока только по http:
 
 http://memos.skp.kz
+
+Далее останеться только прикрутить SSL сертификаты с помощью certbot-a
 
