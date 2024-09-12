@@ -128,5 +128,48 @@ sudo systemctl reload nginx
 
 http://memos.skp.kz
 
-Далее останеться только прикрутить SSL сертификаты с помощью certbot-a
+Далее останется только прикрутить SSL сертификаты с помощью certbot-a
 
+```
+sudo certbot --nginx -d memos.skp.kz
+```
+
+Заменим содержимое файла 
+```
+sudo nano /etc/nginx/sites-available/memos.skp.kz
+```
+
+На следующее
+```
+server {
+    listen 80;
+    server_name memos.skp.kz;
+    
+    # Redirect all HTTP traffic to HTTPS
+    return 301 https://$host$request_uri;
+}
+
+server {
+    listen 443 ssl;
+    server_name memos.skp.kz;
+
+    ssl_certificate /etc/letsencrypt/live/memos.skp.kz/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/memos.skp.kz/privkey.pem;
+    ssl_protocols TLSv1.2 TLSv1.3;
+    ssl_prefer_server_ciphers on;
+
+    location / {
+        proxy_pass https://100.65.236.103:8083;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+```
+
+Перезапустим веб сервер и вуаля
+
+```
+sudo systemctl reload nginx
+```
