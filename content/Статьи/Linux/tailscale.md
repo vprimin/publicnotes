@@ -43,7 +43,9 @@ C помощью network router можно соединять корпорати
 
 Вся прелесть в том, что любую ноду в сети (Linux) можно превратить маршрутизатор например вы обслуживаете организацию и хотите из дома подключаться к любому хосту в удаленной сети - нет проблем. Устанавливаем туда быстренько виртуалочку ставим tailscale, вводим в нашу сеть и выполняем следующую команду 
 ```
-echo 'net.ipv4.ip_forward = 1' | sudo tee -a /etc/sysctl.d/99-tailscale.conf echo 'net.ipv6.conf.all.forwarding = 1' | sudo tee -a /etc/sysctl.d/99-tailscale.conf sudo sysctl -p /etc/sysctl.d/99-tailscale.conf
+echo 'net.ipv4.ip_forward = 1' | sudo tee -a /etc/sysctl.d/99-tailscale.conf
+echo 'net.ipv6.conf.all.forwarding = 1' | sudo tee -a /etc/sysctl.d/99-tailscale.conf
+sudo sysctl -p /etc/sysctl.d/99-tailscale.conf
 ```
 Таким образом мы создали правило маршрутизации трафика
 далее 
