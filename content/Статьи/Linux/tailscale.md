@@ -5,9 +5,7 @@ tags:
   - vpn
   - Linux
 ---
-![](https://youtu.be/wmpRra5hOa4)
-
-![[Pasted image 20240909195221.png|600]]
+![](https://youtu.be/6AplQwB9TTM)
 
 
 > [!NOTE] Предистория
