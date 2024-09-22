@@ -57,7 +57,7 @@ docker swarm init --advertise-addr 172.31.45.242
 ```
 Если все прошло успешно то система должна выдать что-то вроде такого
 ```
- docker swarm join --token SWMTKN-1-0zz8ned2f7xtcfo8xm6fiui5ygi3xoozs3eiuf2pnv7r05j2qa-ahb846rjjyh5ozzeiuk7v9r8n 172.31.45.242:2377
+ docker swarm join --token SWMTKN-1-tokenID 172.31.45.242:2377
 ```
 
 ### add workers
