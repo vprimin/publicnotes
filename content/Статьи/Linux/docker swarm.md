@@ -8,7 +8,7 @@ tags:
 > [!NOTE] Предисловие
 > Данное видео основано на англоязычной версии которую любезно подготовил mr. Bob Cravens оставляю [ссылку на его канал](https://www.youtube.com/@thetechnologysandbox)
 
-![[1thubmnail 2.png]]
+![](https://youtu.be/ItD9fzigaC8)
 # Экзамен по докеру
 ![[Pasted image 20240922161651.png]]
 
@@ -125,6 +125,12 @@ docker service rm viz
 и положим в нее docker-compose.yml файл со следующим содержимым:
 
 ```
+mkdir app
+cd app
+nano docker-compose.yml
+```
+
+```
 version: "3"
 
 services: 
@@ -198,7 +204,7 @@ docker node update --availability active ip-172-31-33-250.ec2.internal
 
 И далее попросим оркестратор перераспределить нагрузку
 ```
-docker service update --force webapp_web
+docker service update --force web_app
 ```
 
 ### Вместо заключения
