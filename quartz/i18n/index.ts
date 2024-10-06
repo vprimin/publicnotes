@@ -1,13 +1,11 @@
 import { Translation, CalloutTranslation } from "./locales/definition"
-import enUs from "./locales/en-US"
-import enGb from "./locales/en-GB"
+import en from "./locales/en-US"
 import fr from "./locales/fr-FR"
 import it from "./locales/it-IT"
 import ja from "./locales/ja-JP"
 import de from "./locales/de-DE"
 import nl from "./locales/nl-NL"
 import ro from "./locales/ro-RO"
-import ca from "./locales/ca-ES"
 import es from "./locales/es-ES"
 import ar from "./locales/ar-SA"
 import uk from "./locales/uk-UA"
@@ -21,8 +19,7 @@ import fa from "./locales/fa-IR"
 import pl from "./locales/pl-PL"
 
 export const TRANSLATIONS = {
-  "en-US": enUs,
-  "en-GB": enGb,
+  "en-US": en,
   "fr-FR": fr,
   "it-IT": it,
   "ja-JP": ja,
@@ -31,7 +28,6 @@ export const TRANSLATIONS = {
   "nl-BE": nl,
   "ro-RO": ro,
   "ro-MD": ro,
-  "ca-ES": ca,
   "es-ES": es,
   "ar-SA": ar,
   "ar-AE": ar,
