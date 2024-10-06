@@ -6,6 +6,8 @@ tags:
   - "#mikrotik"
   - "#zabbix"
   - "#github"
+  - docker
+  - aws
 ---
 ![[svg.svg]]
 
