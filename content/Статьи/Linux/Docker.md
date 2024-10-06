@@ -3,6 +3,7 @@ title: docker
 tags:
   - Linux
   - ubuntu
+  - docker
 ---
 > [!NOTE] Актуально для Ubuntu 24.04
 ## Добавляем официальные GPG ключи:

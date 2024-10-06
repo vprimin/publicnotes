@@ -4,6 +4,7 @@ tags:
   - Linux
   - ubuntu
   - aws
+  - docker
 ---
 > [!NOTE] Предисловие
 > Данное видео основано на англоязычной версии которую любезно подготовил mr. Bob Cravens оставляю [ссылку на его канал](https://www.youtube.com/@thetechnologysandbox)

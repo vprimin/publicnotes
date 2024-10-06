@@ -3,6 +3,7 @@ title: uptime kuma
 tags:
   - "#monitoring"
   - Linux
+  - docker
 ---
 ![](https://youtu.be/Fv-srHz4GsU)
 
