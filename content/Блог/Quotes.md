@@ -1,5 +1,5 @@
 ---
-title: Цитаты
+title: цитаты
 ---
 > [!NOTE] Тут копятся рандомные цитаты которые мне понравились. На русском и английском языках
 
@@ -19,5 +19,11 @@ title: Цитаты
 ```
 
 ```
-Always be dreaming about your next project, whatever it is. Because the moment you stop dreaming you're just waiting to die
+Always be dreaming about your next project, whatever it is. 
+Because the moment you stop dreaming you're just waiting to die
+```
+
+```
+We can not change the past 
+but we are can start today to make a better tomorrow..
 ```
