@@ -27,3 +27,7 @@ Because the moment you stop dreaming you're just waiting to die
 We can not change the past 
 but we are can start today to make a better tomorrow..
 ```
+
+```
+The only people that will remember all the late nights you worked is your family
+```
