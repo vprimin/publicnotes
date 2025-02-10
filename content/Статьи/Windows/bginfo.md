@@ -4,7 +4,24 @@ tags:
 title: bginfo
 date: 03/02/2025
 ---
-> [!quote] Задача, сдеать Youtube ролик, в котором я раскатываю эту утилиту на все компьютеры в домене
+![[Pasted image 20250210134743.png]]
+
+Скачиваем, https://learn.microsoft.com/ru-ru/sysinternals/downloads/bginfo 
+
+Распаковываем например в C:\BGinfo\
+Создаем себе файл bginfo.bgi сохраняем в эту же директорию.
+
+Win+R 'regedit'
+
+Ветка `HKLM\Software\Microsoft\Windows\CurrentVersion\Run`
+
+Добавляем значение "строковый параметр"
+
+```
+"C:\BGinfo\Bginfo64.exe" "C:\BGinfo\bginfo.bgi" /timer:0 /silent /nolicprompt
+```
+
+Таким образом программа будет запускаться для всех пользователей на хосте
 
 Существует как минимум 5 основных способов, как это можно сделать.
 
@@ -13,22 +30,4 @@ date: 03/02/2025
 3. Меню "общий автозапуск" (Win+R shell:common startup) 
 4. Через групповую политику (Win+R gpedit.msc) - предпочтительно для домен контроллеров
 5. .bat или PowerShell script (ChatGPT в Помощь)
-
-Скачиваем, https://learn.microsoft.com/ru-ru/sysinternals/downloads/bginfo 
-
-Распаковываем например в C:\BGinfo\
-Создаем себе файл bginfo.bgi сохраняем в эту же директорию.
-
-## Regedit
-Win+R 'regedit'
-
-Ветка HKLM\Software\Microsoft\Windows\CurrentVersion\Run
-Добавляем значение "строковый параметр"
-```
-"C:\BGinfo\Bginfo64.exe" "C:\BGinfo\bginfo.bgi" /timer:0 /silent /nolicprompt
-```
-Таким образом программа будет запускаться для всех пользователей на хосте
-
-## Gpedit
-Данный способ предпочтителен, если используется домен контроллер.
 
