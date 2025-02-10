@@ -4,7 +4,7 @@ tags:
 title: bginfo
 date: 03/02/2025
 ---
-![[Pasted image 20250210134743.png]]
+![](https://youtu.be/A7PVbxBEKm8)
 
 Скачиваем, https://learn.microsoft.com/ru-ru/sysinternals/downloads/bginfo 
 
