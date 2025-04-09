@@ -1,5 +1,5 @@
 ---
-date: 09/04/2025
+date: 04/09/2025
 title: Outline Wiki
 ---
 ![[outline.png]]
