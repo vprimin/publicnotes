@@ -1,6 +1,10 @@
 ---
 date: 04/09/2025
 title: Outline Wiki
+tags:
+  - Linux
+  - aws
+  - docker
 ---
 ![](https://youtu.be/PBTkN6hizH4)
 
