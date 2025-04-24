@@ -30,10 +30,11 @@ Sharing a personal note, maybe it can be helpful to others.
 23. [ ] FinalCut Pro (appstore) -
 24. [ ]  iWallpapaer (appstore) 
 25. [ ] Hidden Bar (appstore) -
-26. [ ] Messengers (Teams, Telegram, WhatsApp) — [allinone.im](http://allinone.im) ----
-27. [ ] RayCast
-28. [ ]  Antivirus 
-29. [ ]  [UTM](https://mac.getutm.app/)
+26. [ ] [SubWidget](https://apps.apple.com/us/app/subwidget-widget-for-youtube/id1534958933) (appstore)
+27. [ ] Messengers (Teams, Telegram, WhatsApp) — [allinone.im](http://allinone.im) ----
+28. [ ] RayCast
+29. [ ]  Antivirus 
+30. [ ]  [UTM](https://mac.getutm.app/)
 31. [ ] [Obsidian](https://obsidian.md/) + [[Fonts]]
 32. [ ] Battle.net, StarCraft2
 33. [ ] [OBS Studio](https://obsproject.com/download)
@@ -54,7 +55,6 @@ Sharing a personal note, maybe it can be helpful to others.
 
 34. [ ] OBS Studio
 35. [ ] ChatGPT
-
 
 * * *
 ### Optional
