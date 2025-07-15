@@ -11,8 +11,8 @@ date: 07/15/2025
 
 Due to the fact that we are leaving the country, we are selling everything in the table at discounted prices.
 
-| Name                                | Price (NIS) | Photos                                                  |                          |
-| ----------------------------------- | ----------- | ------------------------------------------------------- | ------------------------ |
-| Refrigiratior<br>Холодильник / מקרר | 1500        | [[content/Garage Sale/attachments/mekarer.jpeg\|photo]] | 2024 year purchase date1 |
-|                                     |             |                                                         |                          |
-|                                     |             |                                                         |                          |
+| Name                                | Price (NIS) | Photos                              |                          |
+| ----------------------------------- | ----------- | ----------------------------------- | ------------------------ |
+| Refrigiratior<br>Холодильник / מקרר | 1500        | [[attachments/mekarer.jpeg\|photo]] | 2024 year purchase date1 |
+|                                     |             |                                     |                          |
+|                                     |             |                                     |                          |
