@@ -13,5 +13,6 @@ Due to the fact that we are leaving the country, we are selling everything in th
 
 | Name                                | Price (NIS) | Photos                              |                                             |
 | ----------------------------------- | ----------- | ----------------------------------- | ------------------------------------------- |
+| Refrigiratior<br>Холодильник / מקרר | 1700        | [[attachments/mekarer.jpeg\|photo]] | 2024 year purchase date, price was 3400 nis |
 |                                     |             |                                     |                                             |
 |                                     |             |                                     |                                             |
